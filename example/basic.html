@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RH-Player: Basic Example</title>
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+    <link rel="import" href="packages/polymer/polymer.html">
+    
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    <script src="packages/browser/dart.js"></script>
+  </head>
+ 
+  <body>
+    <script type="application/json;rh-player">
+      {
+   "skin":"flat",
+   "autoplay":0,
+   "resolution":"720p",
+   "muted":0,
+   "colorScheme":"white",
+   "width":"100%",
+   "height":"0",
+   "playButton":1,
+   "playlist":[
+      {
+         "title": "Lymphknoten / Mecaso_Lymph_Brustkrebs_Final.mp4",
+         "url": "http://bit.ly/1a57hQg",
+         "previews":{
+            "240p":"//media.streaming.mecaso.ch/2013/10/92/3613.jpg",
+            "360p":"//media.streaming.mecaso.ch/2013/10/92/3612.jpg",
+            "480p":"//media.streaming.mecaso.ch/2013/10/92/3611.jpg",
+            "720p":"//media.streaming.mecaso.ch/2013/10/92/3610.jpg",
+            "1080p":"//media.streaming.mecaso.ch/2013/10/92/3609.jpg"
+         },
+         "sources":[
+            {
+               "type":"video/mp4",
+               "resolutions":{
+                  "1080p":"//media.streaming.mecaso.ch/2013/10/92/3629.mp4",
+                  "720p":"//media.streaming.mecaso.ch/2013/10/92/3630.mp4",
+                  "480p":"//media.streaming.mecaso.ch/2013/10/92/3631.mp4",
+                  "360p":"//media.streaming.mecaso.ch/2013/10/92/3632.mp4",
+                  "240p":"//media.streaming.mecaso.ch/2013/10/92/3633.mp4"
+               }
+            },
+            {
+               "type":"video/webm",
+               "resolutions":{
+                  "1080p":"//media.streaming.mecaso.ch/2013/10/92/3634.webm",
+                  "720p":"//media.streaming.mecaso.ch/2013/10/92/3635.webm",
+                  "480p":"//media.streaming.mecaso.ch/2013/10/92/3636.webm",
+                  "360p":"//media.streaming.mecaso.ch/2013/10/92/3637.webm",
+                  "240p":"//media.streaming.mecaso.ch/2013/10/92/3638.webm"
+               }
+            },
+            {
+               "type":"video/ogg",
+               "resolutions":{
+                  "1080p":"//media.streaming.mecaso.ch/2013/10/92/3639.ogg",
+                  "720p":"//media.streaming.mecaso.ch/2013/10/92/3640.ogg",
+                  "480p":"//media.streaming.mecaso.ch/2013/10/92/3641.ogg",
+                  "360p":"//media.streaming.mecaso.ch/2013/10/92/3642.ogg",
+                  "240p":"//media.streaming.mecaso.ch/2013/10/92/3643.ogg"
+               }
+            }
+         ],
+         "ads":[
+            {
+               "title":"Lymphknoten / 31_10_Pre-Roll_Smith & Nephew.mp4",
+               "url":"http://www.smith-nephew.com/",
+               "position":"pre-roll",
+               "sources":[
+                  {
+                     "type":"video/mp4",
+                     "resolutions":{
+                        "1080p":"//media.streaming.mecaso.ch/2013/10/93/3689.mp4",
+                        "720p":"//media.streaming.mecaso.ch/2013/10/93/3690.mp4",
+                        "480p":"//media.streaming.mecaso.ch/2013/10/93/3691.mp4",
+                        "360p":"//media.streaming.mecaso.ch/2013/10/93/3692.mp4",
+                        "240p":"//media.streaming.mecaso.ch/2013/10/93/3693.mp4"
+                     }
+                  },
+                  {
+                     "type":"video/webm",
+                     "resolutions":{
+                        "1080p":"//media.streaming.mecaso.ch/2013/10/93/3694.webm",
+                        "720p":"//media.streaming.mecaso.ch/2013/10/93/3695.webm",
+                        "480p":"//media.streaming.mecaso.ch/2013/10/93/3696.webm",
+                        "360p":"//media.streaming.mecaso.ch/2013/10/93/3697.webm",
+                        "240p":"//media.streaming.mecaso.ch/2013/10/93/3698.webm"
+                     }
+                  },
+                  {
+                     "type":"video/ogg",
+                     "resolutions":{
+                        "1080p":"//media.streaming.mecaso.ch/2013/10/93/3699.ogg",
+                        "720p":"//media.streaming.mecaso.ch/2013/10/93/3700.ogg",
+                        "480p":"//media.streaming.mecaso.ch/2013/10/93/3701.ogg",
+                        "360p":"//media.streaming.mecaso.ch/2013/10/93/3702.ogg",
+                        "240p":"//media.streaming.mecaso.ch/2013/10/93/3703.ogg"
+                     }
+                  }
+               ]
+            },
+            {
+               "title":"Lymphknoten / 31_10_Pre-Roll_Smith & Nephew.mp4",
+               "url":"http://www.smith-nephew.com/",
+               "position":"post-roll",
+               "sources":[
+                  {
+                     "type":"video/mp4",
+                     "resolutions":{
+                        "1080p":"//media.streaming.mecaso.ch/2013/10/93/3689.mp4",
+                        "720p":"//media.streaming.mecaso.ch/2013/10/93/3690.mp4",
+                        "480p":"//media.streaming.mecaso.ch/2013/10/93/3691.mp4",
+                        "360p":"//media.streaming.mecaso.ch/2013/10/93/3692.mp4",
+                        "240p":"//media.streaming.mecaso.ch/2013/10/93/3693.mp4"
+                     }
+                  },
+                  {
+                     "type":"video/webm",
+                     "resolutions":{
+                        "1080p":"//media.streaming.mecaso.ch/2013/10/93/3694.webm",
+                        "720p":"//media.streaming.mecaso.ch/2013/10/93/3695.webm",
+                        "480p":"//media.streaming.mecaso.ch/2013/10/93/3696.webm",
+                        "360p":"//media.streaming.mecaso.ch/2013/10/93/3697.webm",
+                        "240p":"//media.streaming.mecaso.ch/2013/10/93/3698.webm"
+                     }
+                  },
+                  {
+                     "type":"video/ogg",
+                     "resolutions":{
+                        "1080p":"//media.streaming.mecaso.ch/2013/10/93/3699.ogg",
+                        "720p":"//media.streaming.mecaso.ch/2013/10/93/3700.ogg",
+                        "480p":"//media.streaming.mecaso.ch/2013/10/93/3701.ogg",
+                        "360p":"//media.streaming.mecaso.ch/2013/10/93/3702.ogg",
+                        "240p":"//media.streaming.mecaso.ch/2013/10/93/3703.ogg"
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "analytics":"UA-39348271-4",
+   "analytics_vars":{
+      "campaign":"Lymphknoten"
+   },
+   "analytics_url":"/delivery/45/sites.mecaso.ch/Article/",
+   "analytics_referrer_override":"?utm_source=sites.mecaso.ch&utm_medium=embedded&utm_content=Article&utm_campaign=Lymphknoten",
+   "analytics_campaign_parameters":"utm_source=sites.mecaso.ch&utm_medium=embedded&utm_content=Article&utm_campaign=Lymphknoten",
+   "overlays":{
+      "positions":[
+         {
+            "id":"bottom-468x60",
+            "bottom":0,
+            "align":"center",
+            "width":468,
+            "height":60
+         }
+      ]
+   },
+   "annotateAds":true
+}
+    </script>
+    
+    <link rel="import" href="packages/rh_player/rh-player.html">
+    <rh-player skin="flat" resolution="720p" skin="white" width="100%" playButton>
+      <rh-player-playlist>
+        <rh-playlist-entry title="Lymphknoten / 31_10_Pre-Roll_Smith & Nephew.mp4" url="http://www.smith-nephew.com/" post-roll>
+          <rh-player-source type="video/ogg">
+            <rh-player-resolution resolution="1080p" url="..."></rh-player-resolution>
+            <rh-player-resolution resolution="720p" url="..."></rh-player-resolution>
+            <rh-player-resolution resolution="480p" url="..."></rh-player-resolution>
+          </rh-player-source>
+        </rh-playlist-entry>
+      </rh-player-playlist>
+    </rh-player>
+    <script type="application/dart;component=1" src="basic.dart"></script>
+    
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+  </body>
+</html>

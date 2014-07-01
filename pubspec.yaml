@@ -1,0 +1,11 @@
+name: rh_player
+version: 0.0.1
+author: Robert Hartung
+description: A HTML5 Video Player written in Dart that supports layouts, skins and the awesome HTML5 Media Source Extension API.
+homepage: http://www.roberthartung.de
+dependencies:
+  browser: any
+  polymer: any
+transformers:
+- polymer:
+    entry_points: example/basic.html
